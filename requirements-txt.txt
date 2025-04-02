@@ -1,0 +1,15 @@
+flask==2.0.1
+pytesseract==0.3.9
+Pillow==9.0.0
+pdf2image==1.16.0
+opencv-python-headless==4.5.5.64
+pymupdf==1.19.6
+numpy==1.22.0
+werkzeug==2.0.2
+gunicorn==20.1.0
+
+# Опциональные зависимости для векторного поиска
+# Раскомментируйте, если нужна интеграция с Qdrant
+# langchain==0.0.252
+# openai==0.27.8
+# qdrant-client==1.2.0
