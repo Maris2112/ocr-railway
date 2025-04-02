@@ -1,0 +1,7 @@
+{
+  "name": "ocr-service",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 300"
+  }
+}
