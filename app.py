@@ -236,6 +236,7 @@ def ocr():
     """Эндпоинт для OCR-обработки документов"""
     try:
         logger.info("Получен запрос к эндпоинту /ocr")
+        return jsonify({"status": "test", "message": "Simplified response"}), 200
         
         # Проверка наличия файла
         if 'file' not in request.files:
